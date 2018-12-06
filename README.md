@@ -14,7 +14,7 @@ that were already changed in a previous run.
 ---
 
 #### How to install:
-First you have to make a new folder, then cd in and run the command: <br>
+First you have to make a new folder (``` mkdir ```), then cd in and run: <br>
 ``` npm init ``` <br>
 after that just hit enter until the command is through and then run: <br>
 ``` npm install tmc-json-editor ``` 
@@ -52,4 +52,4 @@ add it at the end of the file.
 
 ---
 
-by 4Lii3N ([Github](https://github.com/4Lii3N/))
+###### by 4Lii3N ([Github](https://github.com/4Lii3N/))
