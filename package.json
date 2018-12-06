@@ -1,0 +1,14 @@
+{
+  "name": "tmc-json-editor",
+  "version": "1.0.1",
+  "description": "A command-line tool for non destructively editing data in .JSON files.",
+  "main": "index.js",
+  "author": "Keenan Blunt",
+  "license": "GNU",
+  "bin": {
+    "tje": "./index.js"
+  },
+  "dependencies": {
+    "commander": "^2.19.0"
+  }
+}
