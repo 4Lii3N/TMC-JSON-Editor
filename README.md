@@ -32,7 +32,7 @@ you can set what objects from your original json should be altered and what
 they should be altered to. Once you're done editing the Template you can 
 then go ahead and execute the 'tje' command.
 
-#####the syntax for the 'tje' command is as follows: <br>
+##### the syntax for the 'tje' command is as follows: <br>
 ``` tje ``` <br>
 ``` tje -i <path/to/the/folder/with/your/jsons> ``` <br> <br>
 if you dont specify a path with the ``` -i ``` flag the package will scan from the directory you're currently in. 
