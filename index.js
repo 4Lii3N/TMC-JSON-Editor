@@ -9,6 +9,10 @@ var mergeJSON = require("merge-json") ;
 global.__basedir = __dirname;
 var baseDir = __basedir + '/jsonTemplate.JSON'
 var jsonTemplate = JSON.parse(fs.readFileSync(baseDir));
+console.log('___    __       __ _        __               \n' +
+    ' | |V|/  ---  |(_ / \\|\\|---|_  _| o _|_ _  __\n' +
+    ' | | |\\__   \\_|__)\\_/| |   |__(_| |  |_(_) | \n' +
+    '\n');
 console.log('commencing \n');
 var ProgressBar = require('progress');
 
@@ -32,7 +36,7 @@ filewalker(program.input)
         console.error(err);
     })
     .on('done', function() {
-        var bar = new ProgressBar('processing :elapsed {:bar} :percent', { total: arr4.length, complete: '#', incomplete: '᛫'});
+        var bar = new ProgressBar('processing :total files: { :bar } :percent', { total: arr4.length, complete: chalk.green('#'), incomplete: chalk.red('·')});
         arr4.forEach(function(element) {
             var fName = path.basename(element);
             var arr = fName.split('.');
